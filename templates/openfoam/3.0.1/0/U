@@ -23,7 +23,7 @@ boundaryField
     movingWall
     {
         type            fixedValue;
-        value           uniform ($[boundary-field.velocity.x] $[boundary-field.velocity.y $[boundary-field.velocity.z]);
+        value           uniform ($[boundary-field.velocity.x] $[boundary-field.velocity.y] $[boundary-field.velocity.z]);
     }
 
     CPLReceiveMD 
